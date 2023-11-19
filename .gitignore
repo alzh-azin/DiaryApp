@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/android,kotlin,androidstudio,gradle
-# Edit at https://www.toptal.com/developers/gitignore?templates=android,kotlin,androidstudio,gradle
+# Created by https://www.toptal.com/developers/gitignore/api/android,androidstudio,kotlin,gradle,windows
+# Edit at https://www.toptal.com/developers/gitignore?templates=android,androidstudio,kotlin,gradle,windows
 
 ### Android ###
 # Gradle files
@@ -66,6 +66,32 @@ gen-external-apklibs
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+### Windows ###
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
 
 ### Gradle ###
 .gradle
@@ -207,4 +233,4 @@ fabric.properties
 
 !/gradle/wrapper/gradle-wrapper.jar
 
-# End of https://www.toptal.com/developers/gitignore/api/android,kotlin,androidstudio,gradle
+# End of https://www.toptal.com/developers/gitignore/api/android,androidstudio,kotlin,gradle,windows
